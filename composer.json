@@ -1,14 +1,10 @@
 {
-    "name": "Artorios/nestedset-uuid",
+    "name": "artorios/nestedset-uuid",
     "description": "Nested Set Model for Laravel 5.7 and up with uuid support",
     "keywords": ["laravel", "nested sets", "nsm", "database", "hierarchy", "uuid"],
     "license": "MIT",
 
     "authors": [
-        {
-            "name": "Alexander Artorios",
-            "email": "lazychaser@gmail.com"
-        },
         {
             "name": "Arthur Pakulov",
             "email": "artorios9@gmail.com"
