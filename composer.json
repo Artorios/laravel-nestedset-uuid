@@ -1,12 +1,12 @@
 {
-    "name": "kalnoy/nestedset-uuid",
+    "name": "Artorios/nestedset-uuid",
     "description": "Nested Set Model for Laravel 5.7 and up with uuid support",
     "keywords": ["laravel", "nested sets", "nsm", "database", "hierarchy", "uuid"],
     "license": "MIT",
 
     "authors": [
         {
-            "name": "Alexander Kalnoy",
+            "name": "Alexander Artorios",
             "email": "lazychaser@gmail.com"
         },
         {
@@ -24,7 +24,7 @@
 
     "autoload": {
         "psr-4": {
-            "Kalnoy\\NestedsetUuid\\": "src/"
+            "Artorios\\NestedsetUuid\\": "src/"
         }
     },
 
@@ -42,7 +42,7 @@
 
         "laravel": {
             "providers": [
-                "Kalnoy\\NestedsetUuid\\NestedSetServiceProvider"
+                "Artorios\\NestedsetUuid\\NestedSetServiceProvider"
             ]
         }
     },

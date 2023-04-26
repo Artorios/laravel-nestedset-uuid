@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalnoy\NestedsetUuid;
+namespace Artorios\NestedsetUuid;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\ServiceProvider;

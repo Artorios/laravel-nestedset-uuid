@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalnoy\NestedsetUuid;
+namespace Artorios\NestedsetUuid;
 
 use Exception;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
