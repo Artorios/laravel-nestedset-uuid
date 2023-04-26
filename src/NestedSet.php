@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalnoy\Nestedset;
+namespace Kalnoy\NestedsetUuid;
 
 use Illuminate\Database\Schema\Blueprint;
 
@@ -38,11 +38,17 @@ class NestedSet
      */
     public static function columns(Blueprint $table)
     {
-        $table->unsignedInteger(self::LFT)->default(0);
-        $table->unsignedInteger(self::RGT)->default(0);
-        $table->unsignedInteger(self::PARENT_ID)->nullable();
+//        $table->unsignedInteger(self::LFT)->default(0);
+//        $table->unsignedInteger(self::RGT)->default(0);
+//        $table->unsignedInteger(self::PARENT_ID)->nullable();
+        $table->uuid('id')->primary();
+        $table->uuid('_lft');
+        $table->uuid('_rgt');
+        $table->uuid('parent_id')->nullable();
 
         $table->index(static::getDefaultColumns());
+
+
     }
 
     /**

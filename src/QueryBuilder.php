@@ -1,6 +1,6 @@
 <?php
 
-namespace Kalnoy\Nestedset;
+namespace Kalnoy\NestedsetUuid;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
